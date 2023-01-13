@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/Images/logo.svg">
+    <title>Retail Scope Africa</title>
+    <!-- CSS only -->
+    <script src="https://use.fontawesome.com/9397c6d3c2.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monda&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="styling.css">
+<link rel="stylesheet" href="/animate.css">
+<link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/pricing/">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3rem;
+        }
+        
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+</head>
+<body class="body">
+  <nav class="navbar navbar-expand-lg bg-light sticky-top winenav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="Images/logo.svg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 mt-3 ">
+          <li class="nav-item ms-3">
+            <a class="nav-link text-white" aria-current="page" href="insights.html">Insights</a>
+          </li>
+          
+          
+          <li class="nav-item ms-3">
+            <a class="nav-link text-white" href="infographics.html">Infographics</a>
+          </li>
+          <li class="nav-item ms-3">
+            <a class="nav-link text-white" aria-current="page" href="./newsarchive.html">News Archive</a>
+          </li>
+          <li class="nav-item ms-3">
+            <a class="nav-link text-white" aria-current="page" href="services.html">Services</a>
+          </li>
+          
+          <li class="nav-item ms-3 nav-bg ">
+            <a class="nav-link text-white bg-danger" aria-current="page" href="#">
+              Subscription Plans
+            </a>
+          </li>
+         
+        </ul>
+        <button class="btn border btn-outline text-white submit" type="submit"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Log In</button>
+      </div>
+    </div>
+  </nav>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content" style="background: transparent; border: none;">
+        <div class="modal-header" style="background: transparent; border: none;">
+        </div>
+        <div class="modal-body">
+          <div class="row">
+             <div class="col-lg-6" style="background-color: #fff; height:463px; padding: 10px;">
+               <div class="text-center pt-5">
+                <img src="assets/images/logos/Retail-Scope-removebg-preview 1.png" alt="" width="120px" class="text-center">
+                <p class="lead trend-desc ">Log in to your account</p>
+               </div>
+
+                <form action="" style="padding-top: 15px; padding-left: 20px; padding-right: 20px; padding-bottom: 15px;">
+                  <div class="row">
+                    <div class="form-group col-md-12 mb-3">
+                      <input type="text" name="email" class="form-control" placeholder="Email Address" required="required">
+                    </div>
+                    <div class="form-group col-md-12 mb-3">
+                      <input type="password" name="password" class="form-control" placeholder="Password" required="required">
+                    </div>
+                  </div>
+                </form>
+                
+                <div style="margin-left: 30px;">
+                  <input type="checkbox" name="rememberMe" id="">Remember me
+                  <a href="" style="padding-left: 70px; color: #000;">Forgot Password?</a>
+                </div>
+
+                <div class="col-md-12 text-center mt-3 pt-5">
+                  <button type="submit" value="Send message" name="submit" id="submitButton" class="btn main_btn btn btn-danger rounded" style="width: 300px;">Log In</button>
+              </div>
+            </div>
+    
+            <div class="col-lg-6" style="background: #FFE3E3; height: 100%; padding: 10px; margin: 0; ">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; left: 90%; top: 20px; color: red;"></button>
+             <div class="text-center pt-5">
+              <img src="assets/images/logos/Retail-Scope-removebg-preview 1.png" alt="" width="120px" class="text-center">
+              <p class="lead trend-desc">Create an account</p>
+              <p class="text-center" style="color: #0D050580; font-weight: 400; font-size: 14px; line-height: 17px;">Creating an account will grant you direct access to the following services</p>
+             </div>
+
+             <div class="text-center" style="color: #8E1717; font-size: 16px; line-height: 30px; font-weight: 500; font-family: 'Montserrat' sans-serif;">
+              <p>Full access to all statistics</p>
+              <p>1,000,000 market and customer data sets</p>
+              <p>Download as XLS, PDF & PNG </p>
+             </div>
+               
+             <div class="col-md-12 text-center mt-5 pb-4 pt-2">
+              <button type="submit" value="Send message" name="submit" id="submitButton" class="btn main_btn  btn-danger rounded " style="width: 300px;"  data-bs-toggle="modal" data-bs-target="#exampleModalToggle2">Register</button>
+             </div>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-body">
+          <div class="container">
+            <div class="text-center">
+              <div class="row">
+                <div class="col-11">  <img src="assets/images/logos/Retail-Scope-removebg-preview 1.png" alt="" width="150px"></div>
+                <div class="col-1"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+              </div>
+              
+                <p style="font-style: normal; font-size: 16px; font-weight: 400; line-height: 20px; font-family: 'Montserrat' sans-serif; color: #0D050580;">Let’s create your access to unlimited services</p>
+              </div>
+  
+                <div>
+                    <form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input type="text" name=" First name" class="form-control form-control-lg" placeholder="Name" required="required">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="text" name="Last name" class="form-control form-control-lg" placeholder="Name" required="required">
+                            </div>
+                            <div class="form-group col-md-4 mt-3">
+                                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                    <option selected>Gender</option>
+                                    <option value="1">Male</option>
+                                    <option value="2">Female</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4 mt-3">
+                                <input type="number" name="phone" class="form-control form-control-lg" placeholder="Phone Number" required="required">
+                            </div>
+                            <div class="form-group col-md-4 mt-3">
+                                <input type="email" name="email" class="form-control form-control-lg" placeholder="Email" required="required">
+                            </div>
+                            <div class="form-group col-md-4 mt-3">
+                                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                    <option selected>Industry</option>
+                                    <option value="1">Fintech</option>
+                                    <option value="2">FMCGs</option>
+                                    <option value="3">Tech</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4 mt-3">
+                                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                    <option selected>Job Title</option>
+                                    <option value="1">Web Designer</option>
+                                    <option value="2">Marketing Coordinator</option>
+                                    <option value="3">Project Manager</option>
+                                    <option value="4">President of Sales</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4 mt-3">
+                                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                    <option selected>Company</option>
+                                    <option value="1">Hazon Tech</option>
+                                    <option value="2">AFO&T</option>
+                                    <option value="3">Remitta</option>
+                                    <option value="4">Wellness Pharm.</option>
+                                    <option value="5">EIC</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="password" name="password" class="form-control form-control-lg" placeholder="Password" required="required">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input type="password" name="password" class="form-control form-control-lg" placeholder="Confirm Password" required="required">
+                            </div>
+                            <div><input type="checkbox" name="rememberMe" id="" class="mt-3">  I accept the terms and conditions</div>
+                            <div class="col-md-12 text-center mt-3">
+                                <button type="submit" value="Send message" name="submit" id="submitButton" class="btn main_btn btn-danger rounded" title="Submit Your Message!">Register</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="container">
+        <header class="header p-5">
+          <div class="mt-5"></div>
+          <h3 class="text-danger text-center mt-5 trend-title"
+               style="color: #8A3C3A !important;
+               font-size: 16px;
+               font-style: normal;
+               font-weight: 700;
+               line-height: 24px;
+               font-family: 'Monda', sans-serif; ">ADEQUATE SOLUTIONS TO SUIT YOUR SPECIFIC PURPOSE</h3>
+                <p class="headingBorder"></p>
+            <p class="text-center fs-2">Dynamic and relevant research insights readily available for you</p>
+            <div class="row row-cols-1 row-cols-md-3 mt-5 text-center">
+                <div class="col digitalBtn mt-4 ">
+                  <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class=" py-3 mt-5">
+                      <h5 class="my-0 fw-normal">BASIC ACCOUNT</h5>
+                      <h1 class="card-title pricing-card-title">$0</h1>
+                      <p class="text-muted fw-light">
+                        Always Free
+                      </p>
+                    </div>
+                    <div class="card-body"> 
+                      <ul class="  list-unstyled mt-3 mb-5 lh-lg ">
+                        <li>ACCESS TO BASIC STATISTICS</li>
+                        <li>Download as PDF & PNG</li>
+                      </ul>
+                      <p class="text-muted fw-light mt-5 mb-0">
+                        Get to know us
+                      </p>
+                      <button type="button" class="w-100 btn btn-lg btn-outline-danger mt-4">Register</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="card rounded-3 shadow-sm position-relative px-3 py-4 mx-0 wow shake" style="background-color: #1c0303a0;
+                color:white;
+                height: 500px;
+                " >
+                  <!-- <div class="border border-muted p-2 px-3 bg-white rounded"> -->
+                            <p class="bg-danger rounded-pill bg-sm text-white position-absolute top-0 start-50 translate-middle px-2 py-1 middle wow slideInLeft" data-wow-delay="1s">our recommendation</p>
+                            
+                                <h5 class="mt-5 fw-normal">STARTER ACCOUNT</h5>
+                              <h1 class="card-title pricing-card-title">$39</h1>
+                              <p class="text-muted fw-light" style="color: #F0CCCC !important;">
+                                per month, billed annually
+                              </p>
+                           
+                            <div class="card-body">
+                              <ul class="list-unstyled mt-0 mb-4">
+                                <li>Immediate access to 1m+ statistics</li>
+                                <li>Download as XLS, PNG and PDF</li>
+                                <li>Complete source information including background details</li>
+                              </ul>
+                              <p class="text-muted fw-light my-4" style="color: #F0CCCC !important;">
+                                Research efficiently
+                              </p>
+                              <button type="button" class="w-100 btn btn-lg bg-danger btn btn-outline-danger text-white mt-4">BUY NOW</button>
+                            </div>
+                          <!-- </div> -->
+                </div>
+                <div class="col digitalBtn mt-4 ">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                      <div class=" py-3 mt-5">
+                        <h5 class="my-0 fw-normal">PROJECT ACCOUNT</h5>
+                        <h1 class="card-title pricing-card-title">$1,950</h1>
+                        <p class="text-muted fw-light">
+                            1 month, billed once
+                        </p>
+                      </div>
+                      <div class="card-body">
+                        
+                        <ul class="list-unstyled mt-3 mb-4 lh-lg">
+                          <li>All benefits of the Starter Account</li>
+                          <li>Additional access to forecasts, Market Outlooks and reports</li>
+                        </ul>
+                        <p class="text-muted fw-light">
+                            Full access for 1 month
+                        </p>
+                        <button type="button" class="w-100 btn btn-lg btn-outline-danger">BUY NOW</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </header>
+        
+        <div class="container-fluid p-5" style="background-color: #FFF5F5;">
+          <h3 class="text-danger text-center mt-5 trend-title"
+          style="color: #8A3C3A !important;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 24px;
+          font-family: 'Montserrat', sans-serif; ">AN OVERVIEW OF OUR SOLUTION</h3>
+           <p class="headingBorder"></p>
+           <div class="table-responsive">
+            <table class="table table-bordered my-4"  style="
+            font-family: 'Montserrat', sans-serif; " style="border:1px solid #DC1019;">
+             <thead class="text-center"  style="
+             font-family: 'Montserrat', sans-serif; " >
+               <th scope="col" colspan="2" style="background-color: #F0CCCC;">Detailed analysis of our features</th>
+               <th scope="col" style="background-color: #F0CCCC; ">BASIC ACCOUNT</th>
+               <th scope="col" 
+               style="background-color: #1c0303a0;
+                 color:white;
+                 border: none" class="position-relative pt-3">
+                 <p class="bg-danger rounded-pill bg-sm text-white position-absolute top-0 start-50 translate-middle smallround px-2 py-1 mb-2 middle wow slideInLeft" data-wow-delay="1s">RECOMMENDED</p>
+                 STARTER ACCOUNT</th>
+               <th scope="col" style="background-color: #F0CCCC;">PROJECT ACCOUNT</th>
+             </tr>
+             </thead>
+             <tbody class=" text-center">
+               <tr>
+                 <td colspan="2" class="text-start">Access to basic statistics</td>
+                 <td>
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                     <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                     <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                     </svg>
+                     
+                 </td>
+                 <td style="background-color: #1c0303a0;
+                 border:none;">
+                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                       <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       </svg>
+                       
+                 </td>
+                 <td>
+                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                         <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                         
+                 </td>
+               </tr>
+               <tr>
+                 <td colspan="2" class="text-start">Download as PDF</td>
+                 <td>
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                     <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                     <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                     </svg>
+                     
+                 </td>
+                 <td style="background-color: #1c0303a0;
+                 border:none !important;">
+                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                       <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       </svg>
+                       
+                 </td>
+                 <td>
+                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                         <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                         
+                 </td>
+               </tr>
+               <tr>
+                 <td colspan="2" class="text-start">Download as PNG</td>
+                 <td>
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                     <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                     <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                     </svg>
+                     
+                 </td>
+                 <td style="background-color: #1c0303a0;
+                 border:none;">
+                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                       <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       </svg>
+                       
+                 </td>
+                 <td>
+                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                         <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                         
+                 </td>
+               </tr>
+               <tr>
+                 <td colspan="2" class="text-start">Download as XLS</td>
+                 <td>
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#D00A0A" fill-opacity="0.8"/>
+                     <path d="M23.5468 21.9546C23.6517 22.0591 23.7349 22.1833 23.7917 22.32C23.8485 22.4568 23.8777 22.6034 23.8777 22.7515C23.8777 22.8995 23.8485 23.0461 23.7917 23.1829C23.7349 23.3196 23.6517 23.4438 23.5468 23.5483C23.3345 23.7579 23.0482 23.8754 22.75 23.8754C22.4517 23.8754 22.1654 23.7579 21.9531 23.5483L16 17.5952L10.0468 23.5483C9.83453 23.7579 9.54825 23.8754 9.24995 23.8754C8.95166 23.8754 8.66538 23.7579 8.45308 23.5483C8.3482 23.4438 8.26498 23.3196 8.2082 23.1829C8.15142 23.0461 8.12219 22.8995 8.12219 22.7515C8.12219 22.6034 8.15142 22.4568 8.2082 22.32C8.26498 22.1833 8.3482 22.0591 8.45308 21.9546L14.4062 16.0015L8.45308 10.0483C8.24174 9.83699 8.123 9.55035 8.123 9.25146C8.123 9.10347 8.15215 8.95693 8.20879 8.8202C8.26542 8.68347 8.34843 8.55924 8.45308 8.45459C8.55773 8.34994 8.68196 8.26693 8.81869 8.2103C8.95542 8.15366 9.10196 8.12451 9.24995 8.12451C9.54884 8.12451 9.83549 8.24324 10.0468 8.45459L16 14.4077L21.9531 8.45459C22.1644 8.24324 22.4511 8.12451 22.75 8.12451C23.0488 8.12451 23.3355 8.24324 23.5468 8.45459C23.7582 8.66593 23.8769 8.95258 23.8769 9.25146C23.8769 9.55035 23.7582 9.83699 23.5468 10.0483L17.5937 16.0015L23.5468 21.9546Z" fill="white"/>
+                     </svg>
+                     
+                     
+                 </td>
+                 <td style="background-color: #1c0303a0;
+                 border:none;">
+                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                       <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       </svg>
+                       
+                 </td>
+                 <td>
+                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                         <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                         
+                 </td>
+               </tr>
+               <tr>
+                 <td colspan="2" class="text-start">Access to 1m+ statistics</td>
+                 <td>
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#D00A0A" fill-opacity="0.8"/>
+                     <path d="M23.5468 21.9546C23.6517 22.0591 23.7349 22.1833 23.7917 22.32C23.8485 22.4568 23.8777 22.6034 23.8777 22.7515C23.8777 22.8995 23.8485 23.0461 23.7917 23.1829C23.7349 23.3196 23.6517 23.4438 23.5468 23.5483C23.3345 23.7579 23.0482 23.8754 22.75 23.8754C22.4517 23.8754 22.1654 23.7579 21.9531 23.5483L16 17.5952L10.0468 23.5483C9.83453 23.7579 9.54825 23.8754 9.24995 23.8754C8.95166 23.8754 8.66538 23.7579 8.45308 23.5483C8.3482 23.4438 8.26498 23.3196 8.2082 23.1829C8.15142 23.0461 8.12219 22.8995 8.12219 22.7515C8.12219 22.6034 8.15142 22.4568 8.2082 22.32C8.26498 22.1833 8.3482 22.0591 8.45308 21.9546L14.4062 16.0015L8.45308 10.0483C8.24174 9.83699 8.123 9.55035 8.123 9.25146C8.123 9.10347 8.15215 8.95693 8.20879 8.8202C8.26542 8.68347 8.34843 8.55924 8.45308 8.45459C8.55773 8.34994 8.68196 8.26693 8.81869 8.2103C8.95542 8.15366 9.10196 8.12451 9.24995 8.12451C9.54884 8.12451 9.83549 8.24324 10.0468 8.45459L16 14.4077L21.9531 8.45459C22.1644 8.24324 22.4511 8.12451 22.75 8.12451C23.0488 8.12451 23.3355 8.24324 23.5468 8.45459C23.7582 8.66593 23.8769 8.95258 23.8769 9.25146C23.8769 9.55035 23.7582 9.83699 23.5468 10.0483L17.5937 16.0015L23.5468 21.9546Z" fill="white"/>
+                     </svg>
+                     
+                     
+                 </td>
+                 <td style="background-color: #1c0303a0;
+                 border:none;">
+                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                       <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       </svg>
+                       
+                 </td>
+                 <td>
+                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                         <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                         
+                 </td>
+               </tr>
+               <tr>
+                 <td colspan="2" class="text-start">Complete source of information</td>
+                 <td>
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#D00A0A" fill-opacity="0.8"/>
+                     <path d="M23.5468 21.9546C23.6517 22.0591 23.7349 22.1833 23.7917 22.32C23.8485 22.4568 23.8777 22.6034 23.8777 22.7515C23.8777 22.8995 23.8485 23.0461 23.7917 23.1829C23.7349 23.3196 23.6517 23.4438 23.5468 23.5483C23.3345 23.7579 23.0482 23.8754 22.75 23.8754C22.4517 23.8754 22.1654 23.7579 21.9531 23.5483L16 17.5952L10.0468 23.5483C9.83453 23.7579 9.54825 23.8754 9.24995 23.8754C8.95166 23.8754 8.66538 23.7579 8.45308 23.5483C8.3482 23.4438 8.26498 23.3196 8.2082 23.1829C8.15142 23.0461 8.12219 22.8995 8.12219 22.7515C8.12219 22.6034 8.15142 22.4568 8.2082 22.32C8.26498 22.1833 8.3482 22.0591 8.45308 21.9546L14.4062 16.0015L8.45308 10.0483C8.24174 9.83699 8.123 9.55035 8.123 9.25146C8.123 9.10347 8.15215 8.95693 8.20879 8.8202C8.26542 8.68347 8.34843 8.55924 8.45308 8.45459C8.55773 8.34994 8.68196 8.26693 8.81869 8.2103C8.95542 8.15366 9.10196 8.12451 9.24995 8.12451C9.54884 8.12451 9.83549 8.24324 10.0468 8.45459L16 14.4077L21.9531 8.45459C22.1644 8.24324 22.4511 8.12451 22.75 8.12451C23.0488 8.12451 23.3355 8.24324 23.5468 8.45459C23.7582 8.66593 23.8769 8.95258 23.8769 9.25146C23.8769 9.55035 23.7582 9.83699 23.5468 10.0483L17.5937 16.0015L23.5468 21.9546Z" fill="white"/>
+                     </svg>
+                     
+                     
+                 </td>
+                 <td style="background-color: #1c0303a0;
+                 border:none;">
+                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                       <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       </svg>
+                       
+                 </td>
+                 <td>
+                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                         <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                         
+                 </td>
+               </tr>
+               <tr>
+                 <td colspan="2" class="text-start">Complete access to background details</td>
+                 <td>
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#D00A0A" fill-opacity="0.8"/>
+                     <path d="M23.5468 21.9546C23.6517 22.0591 23.7349 22.1833 23.7917 22.32C23.8485 22.4568 23.8777 22.6034 23.8777 22.7515C23.8777 22.8995 23.8485 23.0461 23.7917 23.1829C23.7349 23.3196 23.6517 23.4438 23.5468 23.5483C23.3345 23.7579 23.0482 23.8754 22.75 23.8754C22.4517 23.8754 22.1654 23.7579 21.9531 23.5483L16 17.5952L10.0468 23.5483C9.83453 23.7579 9.54825 23.8754 9.24995 23.8754C8.95166 23.8754 8.66538 23.7579 8.45308 23.5483C8.3482 23.4438 8.26498 23.3196 8.2082 23.1829C8.15142 23.0461 8.12219 22.8995 8.12219 22.7515C8.12219 22.6034 8.15142 22.4568 8.2082 22.32C8.26498 22.1833 8.3482 22.0591 8.45308 21.9546L14.4062 16.0015L8.45308 10.0483C8.24174 9.83699 8.123 9.55035 8.123 9.25146C8.123 9.10347 8.15215 8.95693 8.20879 8.8202C8.26542 8.68347 8.34843 8.55924 8.45308 8.45459C8.55773 8.34994 8.68196 8.26693 8.81869 8.2103C8.95542 8.15366 9.10196 8.12451 9.24995 8.12451C9.54884 8.12451 9.83549 8.24324 10.0468 8.45459L16 14.4077L21.9531 8.45459C22.1644 8.24324 22.4511 8.12451 22.75 8.12451C23.0488 8.12451 23.3355 8.24324 23.5468 8.45459C23.7582 8.66593 23.8769 8.95258 23.8769 9.25146C23.8769 9.55035 23.7582 9.83699 23.5468 10.0483L17.5937 16.0015L23.5468 21.9546Z" fill="white"/>
+                     </svg>
+                     
+                     
+                 </td>
+                 <td style="background-color: #1c0303a0;
+                 border:none;">
+                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                       <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                       <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                       </svg>
+                       
+                 </td>
+                 <td>
+                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                         <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                         
+                 </td>
+               </tr>
+               <tr>
+                 <td colspan="2" class="text-start">Complete access to reports</td>
+                 <td>
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#D00A0A" fill-opacity="0.8"/>
+                     <path d="M23.5468 21.9546C23.6517 22.0591 23.7349 22.1833 23.7917 22.32C23.8485 22.4568 23.8777 22.6034 23.8777 22.7515C23.8777 22.8995 23.8485 23.0461 23.7917 23.1829C23.7349 23.3196 23.6517 23.4438 23.5468 23.5483C23.3345 23.7579 23.0482 23.8754 22.75 23.8754C22.4517 23.8754 22.1654 23.7579 21.9531 23.5483L16 17.5952L10.0468 23.5483C9.83453 23.7579 9.54825 23.8754 9.24995 23.8754C8.95166 23.8754 8.66538 23.7579 8.45308 23.5483C8.3482 23.4438 8.26498 23.3196 8.2082 23.1829C8.15142 23.0461 8.12219 22.8995 8.12219 22.7515C8.12219 22.6034 8.15142 22.4568 8.2082 22.32C8.26498 22.1833 8.3482 22.0591 8.45308 21.9546L14.4062 16.0015L8.45308 10.0483C8.24174 9.83699 8.123 9.55035 8.123 9.25146C8.123 9.10347 8.15215 8.95693 8.20879 8.8202C8.26542 8.68347 8.34843 8.55924 8.45308 8.45459C8.55773 8.34994 8.68196 8.26693 8.81869 8.2103C8.95542 8.15366 9.10196 8.12451 9.24995 8.12451C9.54884 8.12451 9.83549 8.24324 10.0468 8.45459L16 14.4077L21.9531 8.45459C22.1644 8.24324 22.4511 8.12451 22.75 8.12451C23.0488 8.12451 23.3355 8.24324 23.5468 8.45459C23.7582 8.66593 23.8769 8.95258 23.8769 9.25146C23.8769 9.55035 23.7582 9.83699 23.5468 10.0483L17.5937 16.0015L23.5468 21.9546Z" fill="white"/>
+                     </svg>
+                     
+                     
+                 </td>
+                 <td style="background-color: #1c0303a0;
+                 border:none;">
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#D00A0A" fill-opacity="0.8"/>
+                     <path d="M23.5468 21.9546C23.6517 22.0591 23.7349 22.1833 23.7917 22.32C23.8485 22.4568 23.8777 22.6034 23.8777 22.7515C23.8777 22.8995 23.8485 23.0461 23.7917 23.1829C23.7349 23.3196 23.6517 23.4438 23.5468 23.5483C23.3345 23.7579 23.0482 23.8754 22.75 23.8754C22.4517 23.8754 22.1654 23.7579 21.9531 23.5483L16 17.5952L10.0468 23.5483C9.83453 23.7579 9.54825 23.8754 9.24995 23.8754C8.95166 23.8754 8.66538 23.7579 8.45308 23.5483C8.3482 23.4438 8.26498 23.3196 8.2082 23.1829C8.15142 23.0461 8.12219 22.8995 8.12219 22.7515C8.12219 22.6034 8.15142 22.4568 8.2082 22.32C8.26498 22.1833 8.3482 22.0591 8.45308 21.9546L14.4062 16.0015L8.45308 10.0483C8.24174 9.83699 8.123 9.55035 8.123 9.25146C8.123 9.10347 8.15215 8.95693 8.20879 8.8202C8.26542 8.68347 8.34843 8.55924 8.45308 8.45459C8.55773 8.34994 8.68196 8.26693 8.81869 8.2103C8.95542 8.15366 9.10196 8.12451 9.24995 8.12451C9.54884 8.12451 9.83549 8.24324 10.0468 8.45459L16 14.4077L21.9531 8.45459C22.1644 8.24324 22.4511 8.12451 22.75 8.12451C23.0488 8.12451 23.3355 8.24324 23.5468 8.45459C23.7582 8.66593 23.8769 8.95258 23.8769 9.25146C23.8769 9.55035 23.7582 9.83699 23.5468 10.0483L17.5937 16.0015L23.5468 21.9546Z" fill="white"/>
+                     </svg>
+                     
+                       
+                 </td>
+                 <td>
+                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                         <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                         
+                 </td>
+               </tr>
+               <tr>
+                 <td colspan="2" class="text-start">Complete access to forecasts</td>
+                 <td>
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#D00A0A" fill-opacity="0.8"/>
+                     <path d="M23.5468 21.9546C23.6517 22.0591 23.7349 22.1833 23.7917 22.32C23.8485 22.4568 23.8777 22.6034 23.8777 22.7515C23.8777 22.8995 23.8485 23.0461 23.7917 23.1829C23.7349 23.3196 23.6517 23.4438 23.5468 23.5483C23.3345 23.7579 23.0482 23.8754 22.75 23.8754C22.4517 23.8754 22.1654 23.7579 21.9531 23.5483L16 17.5952L10.0468 23.5483C9.83453 23.7579 9.54825 23.8754 9.24995 23.8754C8.95166 23.8754 8.66538 23.7579 8.45308 23.5483C8.3482 23.4438 8.26498 23.3196 8.2082 23.1829C8.15142 23.0461 8.12219 22.8995 8.12219 22.7515C8.12219 22.6034 8.15142 22.4568 8.2082 22.32C8.26498 22.1833 8.3482 22.0591 8.45308 21.9546L14.4062 16.0015L8.45308 10.0483C8.24174 9.83699 8.123 9.55035 8.123 9.25146C8.123 9.10347 8.15215 8.95693 8.20879 8.8202C8.26542 8.68347 8.34843 8.55924 8.45308 8.45459C8.55773 8.34994 8.68196 8.26693 8.81869 8.2103C8.95542 8.15366 9.10196 8.12451 9.24995 8.12451C9.54884 8.12451 9.83549 8.24324 10.0468 8.45459L16 14.4077L21.9531 8.45459C22.1644 8.24324 22.4511 8.12451 22.75 8.12451C23.0488 8.12451 23.3355 8.24324 23.5468 8.45459C23.7582 8.66593 23.8769 8.95258 23.8769 9.25146C23.8769 9.55035 23.7582 9.83699 23.5468 10.0483L17.5937 16.0015L23.5468 21.9546Z" fill="white"/>
+                     </svg>
+                     
+                     
+                 </td>
+                 <td style="background-color: #1c0303a0;
+                 border:none;">
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#D00A0A" fill-opacity="0.8"/>
+                     <path d="M23.5468 21.9546C23.6517 22.0591 23.7349 22.1833 23.7917 22.32C23.8485 22.4568 23.8777 22.6034 23.8777 22.7515C23.8777 22.8995 23.8485 23.0461 23.7917 23.1829C23.7349 23.3196 23.6517 23.4438 23.5468 23.5483C23.3345 23.7579 23.0482 23.8754 22.75 23.8754C22.4517 23.8754 22.1654 23.7579 21.9531 23.5483L16 17.5952L10.0468 23.5483C9.83453 23.7579 9.54825 23.8754 9.24995 23.8754C8.95166 23.8754 8.66538 23.7579 8.45308 23.5483C8.3482 23.4438 8.26498 23.3196 8.2082 23.1829C8.15142 23.0461 8.12219 22.8995 8.12219 22.7515C8.12219 22.6034 8.15142 22.4568 8.2082 22.32C8.26498 22.1833 8.3482 22.0591 8.45308 21.9546L14.4062 16.0015L8.45308 10.0483C8.24174 9.83699 8.123 9.55035 8.123 9.25146C8.123 9.10347 8.15215 8.95693 8.20879 8.8202C8.26542 8.68347 8.34843 8.55924 8.45308 8.45459C8.55773 8.34994 8.68196 8.26693 8.81869 8.2103C8.95542 8.15366 9.10196 8.12451 9.24995 8.12451C9.54884 8.12451 9.83549 8.24324 10.0468 8.45459L16 14.4077L21.9531 8.45459C22.1644 8.24324 22.4511 8.12451 22.75 8.12451C23.0488 8.12451 23.3355 8.24324 23.5468 8.45459C23.7582 8.66593 23.8769 8.95258 23.8769 9.25146C23.8769 9.55035 23.7582 9.83699 23.5468 10.0483L17.5937 16.0015L23.5468 21.9546Z" fill="white"/>
+                     </svg>
+                     
+                       
+                 </td>
+                 <td>
+                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                         <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                         
+                 </td>
+               </tr>
+               <tr>
+                 <td colspan="2" class="text-start">Complete access to market outlooks</td>
+                 <td>
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#D00A0A" fill-opacity="0.8"/>
+                     <path d="M23.5468 21.9546C23.6517 22.0591 23.7349 22.1833 23.7917 22.32C23.8485 22.4568 23.8777 22.6034 23.8777 22.7515C23.8777 22.8995 23.8485 23.0461 23.7917 23.1829C23.7349 23.3196 23.6517 23.4438 23.5468 23.5483C23.3345 23.7579 23.0482 23.8754 22.75 23.8754C22.4517 23.8754 22.1654 23.7579 21.9531 23.5483L16 17.5952L10.0468 23.5483C9.83453 23.7579 9.54825 23.8754 9.24995 23.8754C8.95166 23.8754 8.66538 23.7579 8.45308 23.5483C8.3482 23.4438 8.26498 23.3196 8.2082 23.1829C8.15142 23.0461 8.12219 22.8995 8.12219 22.7515C8.12219 22.6034 8.15142 22.4568 8.2082 22.32C8.26498 22.1833 8.3482 22.0591 8.45308 21.9546L14.4062 16.0015L8.45308 10.0483C8.24174 9.83699 8.123 9.55035 8.123 9.25146C8.123 9.10347 8.15215 8.95693 8.20879 8.8202C8.26542 8.68347 8.34843 8.55924 8.45308 8.45459C8.55773 8.34994 8.68196 8.26693 8.81869 8.2103C8.95542 8.15366 9.10196 8.12451 9.24995 8.12451C9.54884 8.12451 9.83549 8.24324 10.0468 8.45459L16 14.4077L21.9531 8.45459C22.1644 8.24324 22.4511 8.12451 22.75 8.12451C23.0488 8.12451 23.3355 8.24324 23.5468 8.45459C23.7582 8.66593 23.8769 8.95258 23.8769 9.25146C23.8769 9.55035 23.7582 9.83699 23.5468 10.0483L17.5937 16.0015L23.5468 21.9546Z" fill="white"/>
+                     </svg>
+                     
+                     
+                 </td>
+                 <td style="background-color: #1c0303a0;
+                 border:none;" id="startTable">
+                   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <rect width="32" height="32" rx="16" fill="#D00A0A" fill-opacity="0.8"/>
+                     <path d="M23.5468 21.9546C23.6517 22.0591 23.7349 22.1833 23.7917 22.32C23.8485 22.4568 23.8777 22.6034 23.8777 22.7515C23.8777 22.8995 23.8485 23.0461 23.7917 23.1829C23.7349 23.3196 23.6517 23.4438 23.5468 23.5483C23.3345 23.7579 23.0482 23.8754 22.75 23.8754C22.4517 23.8754 22.1654 23.7579 21.9531 23.5483L16 17.5952L10.0468 23.5483C9.83453 23.7579 9.54825 23.8754 9.24995 23.8754C8.95166 23.8754 8.66538 23.7579 8.45308 23.5483C8.3482 23.4438 8.26498 23.3196 8.2082 23.1829C8.15142 23.0461 8.12219 22.8995 8.12219 22.7515C8.12219 22.6034 8.15142 22.4568 8.2082 22.32C8.26498 22.1833 8.3482 22.0591 8.45308 21.9546L14.4062 16.0015L8.45308 10.0483C8.24174 9.83699 8.123 9.55035 8.123 9.25146C8.123 9.10347 8.15215 8.95693 8.20879 8.8202C8.26542 8.68347 8.34843 8.55924 8.45308 8.45459C8.55773 8.34994 8.68196 8.26693 8.81869 8.2103C8.95542 8.15366 9.10196 8.12451 9.24995 8.12451C9.54884 8.12451 9.83549 8.24324 10.0468 8.45459L16 14.4077L21.9531 8.45459C22.1644 8.24324 22.4511 8.12451 22.75 8.12451C23.0488 8.12451 23.3355 8.24324 23.5468 8.45459C23.7582 8.66593 23.8769 8.95258 23.8769 9.25146C23.8769 9.55035 23.7582 9.83699 23.5468 10.0483L17.5937 16.0015L23.5468 21.9546Z" fill="white"/>
+                     </svg>
+                     
+                       
+                 </td>
+                 <td>
+                       <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                         <rect width="32" height="32" rx="16" fill="#11BD7F"/>
+                         <path d="M24 16.9526C23.36 20.1557 20.9474 23.1718 17.562 23.8458C15.9108 24.1749 14.1981 23.9742 12.6675 23.2723C11.137 22.5703 9.86669 21.4028 9.03752 19.9361C8.20835 18.4694 7.86258 16.7782 8.04943 15.1033C8.23629 13.4284 8.94626 11.8553 10.0782 10.6078C12.4 8.04786 16.3204 7.34316 19.5203 8.62442" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         <path d="M13.1206 15.6712L16.3204 18.8743L24 10.5461" stroke="white" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+                         </svg>
+                         
+                 </td>
+               </tr>
+               <tr>
+                 <td colspan="2" class="text-start"></td>
+                 <td>
+                   <button class="btn"   style=" background-color: #F0CCCC; width:100%;"  data-bs-toggle="modal" data-bs-target="#exampleModalToggle2">Register</button>
+                     
+                 </td>
+                 <td style="background-color: #1c0303a0;
+                 border:none;" id="startTable">
+                   
+                   <button class="btn"   style=" background-color: #DC1019; width:100%; color: white;"  data-bs-toggle="modal" data-bs-target="#exampleModalToggle2">Buy Now</button>
+                       
+                 </td>
+                 <td>
+                   <button class="btn"   style=" background-color: #F0CCCC; width:100%;"  data-bs-toggle="modal" data-bs-target="#exampleModalToggle2">Buy Now</button>
+                         
+                 </td>
+               </tr>
+               
+              
+             </tbody>
+           </table>
+           </div>
+          
+            
+        </div>
+       
+        <section>
+          <div class="container">
+            <div class="text-center mt-5 pt-3">
+              <h3 class="trend-title"
+                 style="color: #8A3C3A;
+                 font-size: 16px;
+                 font-style: normal;
+                 font-weight: 700;
+                 line-height: 24px;
+                 font-family: 'Monda', sans-serif; ">OUR REVIEWS</h3>
+                <p class="headingBorder"></p>
+               <p class="lead trend-desc mt-3">Expressions of our positive impact on businesses</p>
+           </div>
+           <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="testimonies text-center">
+                  <i>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.”</i>
+                  <p>Dr. Samuel Aderibigbe</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonies text-center">
+                  <i>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.”</i>
+                  <p>Dr. Samuel Aderibigbe</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonies text-center d-block w-100">
+                  <i>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.”</i>
+                  <p>Dr. Samuel Aderibigbe</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonies text-center d-block w-100">
+                  <i>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.”</i>
+                  <p>Dr. Samuel Aderibigbe</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="testimonies text-center d-block w-100">
+                  <i>“It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.”</i>
+                  <p>Dr. Samuel Aderibigbe</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
+          <div style="background-color: #FFF5F5;" class="py-5">
+            <h6 class="text-center mt-5">CONTACT US</h6>
+        <P class="text-center fs-2 lh-lg mb-3 mt-0">Get in Touch with us, we are happy to help</P>
+        <div class="d-flex map  position-relative justify-content-between mt-5">
+            
+          <div >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6256664739217!2d3.4136208!3d6.4420904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b29716da015%3A0xf1feca12afeddbca!2s50%20Awolowo%20Rd%2C%20Ikoyi%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1669370508238!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mt-5 me-3"></iframe>
+          </div>
+          <div>
+            <div class="card contact-card" id="contact_holder">
+              <div class="contact_top">
+                  <div style="display: flex;">
+                      <img src="Images/ayohassan.svg" alt="">
+                      <div class="mt-2">
+                          <h6 class="profile_name">Ayotunde Hassan</h6>
+                          <p>Customer Support Speacialist</p>
+                      </div>
+                  </div>
+              </div>
+              <div style="width: 100%;">
+                  <div style="display: flex; gap: 100px;">
+                      <h6 class="profile-sub">Telephone</h6>
+                      <p>+2348131896792</p>
+                  </div>
+  
+                  <div style="display: flex; gap: 30px;">
+                      <h6 class="profile-sub">Email Address</h6>
+                      <p>Info@Retailscope.Africa</p>
+                  </div>
+                  <div style="display: flex; gap: 30px;">
+                    <h6 class="profile-sub">Availabilty</h6>
+                    <p>Mon-Fri, 8:00am - 10:00pm</p>
+                </div>
+          </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+      
+      
+         
+    </div>
+    <footer class="bg-white">
+      <div class="container"><hr></div>
+      <div class="container-fluid ">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+          <div class="col mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="prices.html" class="nav-link p-0 text-muted fw-bold">ACCOUNTS</a></li>
+              <li class="nav-item mb-2"><a href="prices.html" class="nav-link p-0 text-muted">Basic Account</a></li>
+              <li class="nav-item mb-2"><a href="prices.html" class="nav-link p-0 text-muted">Starter Account</a></li>
+              <li class="nav-item mb-2"><a href="prices.html" class="nav-link p-0 text-muted">Project Account</a></li>
+             
+            </ul>
+          </div>
+          <div class="col mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted fw-bold">COMPANY</a></li>
+              <li class="nav-item mb-2"><a href="aboutUs.html" class="nav-link p-0 text-muted">About Us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+              <li class="nav-item mb-2"><a href="FAQ..html" class="nav-link p-0 text-muted">Help & FAQ</a></li>
+              
+              
+            </ul>
+          </div>
+          <div class="col mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted fw-bold">SERVICES</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Retail AI Solutions</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Retail Insight Consulting</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Market/Consumer Research</a></li>
+            </ul>
+          </div>
+          <div class="col mb-3">
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted fw-bold">PRODUCTS</a></li>
+              <li class="nav-item mb-2"><a href="infographics.html" class="nav-link p-0 text-muted">Infographics</a></li>
+              <li class="nav-item mb-2"><a href="newsarchive.html" class="nav-link p-0 text-muted">News Archive</a></li>
+              <li class="nav-item mb-2"><a href="insights.html" class="nav-link p-0 text-muted">Deep Insights</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+      <div style="display: flex; background: #F0CCCC; justify-content: space-between;" class="FooterSocials">
+        <div class="social-desc">
+          <p><b>Follow Us</b> on social media for more business insights.</p>
+        </div>
+  
+        <div class="social_profile  mb-5">
+          <ul>
+            <li><a href="#" class="f_twitter digitalBtn rounded"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+            <li><a href="#" class="f_instagram digitalBtn rounded"><i class="fa fa-instagram" title="Instagram"></i></a></li>
+            <li><a href="#" class="f_linkedin digitalBtn rounded"><i class="fa fa-linkedin" title="LinkedIn"></i></a></li>
+            <li><a href="#" class="f_facebook digitalBtn rounded"><i class="fa fa-facebook" title="Facebook"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-fluid footer_copyright mb-0">
+   <p class="text-center p-2">Copyright &copy; Copyright 2022 - All Rights Reserved </p>
+    </div>
+    </footer>
+     
+      
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+      
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 5,
+        spaceBetween: 40,
+        slidesPerGroup: 2,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        
+        
+      });
+    </script>
+      <script>
+        var swiper = new Swiper(".mySwipers", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 2,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
+</html>

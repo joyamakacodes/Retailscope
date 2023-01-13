@@ -1,0 +1,798 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  font-family: ; 
+}
+
+nav{
+    background: linear-gradient(106.95deg, #B03128 -69.03%, rgba(117, 40, 40, 0.9) 109.84%);
+
+}
+
+.nav-link{
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 20px;
+    font-family: 'Monda', sans-serif;
+}
+.navLinks{
+  color: black;
+ border: 1px solid rgb(119, 116, 116);
+ padding: 10px 35px;
+ background: #F0CCCC70;
+}
+.navLinks:hover, .navLinks:active{
+  background-color:  #F0CCCC70 !important;
+  color: black;
+}
+
+
+
+.nav-item :hover{
+  color: white;
+}
+
+.nav-bg{
+    border-radius: 1px;
+}
+
+.btn-outline{
+    border: 1px solid white;
+    padding: 10px 40px;
+    color: white;
+}
+
+.btn:hover{
+  background-color: #D12806;
+  color: white;
+}
+.headingBorder{
+  width: 10%;
+  margin: auto;
+  border-bottom: 3px solid #D00A0ACC;
+}
+
+
+/* HERO BANNER */
+.main{
+  font-family:  'Montserrat' sans-serif; 
+  font-size: 16px;
+}
+.mains{
+  background-image: url(/Images/background.svg);
+  background-position: center top;
+  background-size: contain;
+  background-repeat:no-repeat;
+  padding: 120px;
+  width: 100%;
+}
+.carousel1{
+  display: none;
+}
+#hero{
+  background-image:linear-gradient(106.95deg,  rgba(28, 3, 3, 0.4) -69.03%, rgba(117, 40, 40, 0.082) 109.84%), url(assets/images/backgroundImage.svg);
+  /* background-size: cover; */
+  background-position: center;
+  width: 100%;
+    /* background: linear-gradient(106.95deg, #B03128 -69.03%, rgba(117, 40, 40, 0.9) 109.84%); */
+    /* height: 90vh; */
+    background-repeat: no-repeat;
+   
+}
+#hero input {
+ width: 80%;
+ margin: 50px 0;
+ outline: none;
+}
+#hero .btn{
+  padding: 0 80px;
+
+ }
+
+.hero-title{
+    color: white;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 48px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    
+    text-align: start;
+}
+.hero-title span{
+  color: #B03128;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+.hero-desc{
+    color: white;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 29px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;  
+    text-align: start;  
+          
+}
+.tabContent{
+  background: #F0CCCC70;
+  border: .7px solid rgba(194, 192, 192, 0.637);
+}
+
+.carouselHome{
+  background-color: white;
+  border: .7px solid rgba(194, 192, 192, 0.637);
+  padding: 10px;
+  margin: 30px;
+}
+.carouselDetails{
+  text-align: start;
+}
+
+.digitalBtn{
+  transition: transform 0.5s;
+}
+.digitalBtn:hover{
+  transform: translateY(-15px);
+  
+}
+.reportImageCon{
+  animation: firstMove2 10s ;
+}
+.reportHeader{
+  padding: 18px;
+  float: right;
+  position: relative;
+}
+.ServiceLikesCon{
+  display: flex;
+
+}
+.serviceHeader{
+  background-image: url("Images/servicehero.svg"), linear-gradient(#0a0a0a, #fcfafa);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  animation: firstMove2 10s ;
+  
+}
+.serviceTextButton{
+  background: rgba(0, 0, 0, 0.671);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+}
+.service1stPara{
+  width: 90%;
+  margin-bottom: 20px;
+  font-family: 'Montserrat' sans-serif;
+  font-size: 17px;
+  text-align: center;
+}
+.h6{
+  color: #D00A0A;
+}
+.form-inline{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px !important;
+}
+
+.form-inline input{
+    width: 600px;
+    height: 56px;
+    border-radius: 0px;
+    border: none ;
+    border-top-left-radius:5px;
+    border-bottom-left-radius: 5px;
+}
+
+.form-inline button{
+    border-radius: 0px;
+    margin-left: 0px;
+    
+    
+    height: 56px;
+}
+
+.badge{
+    background-color: #F0CCCC;;
+    color: #674747;
+    padding: 10px;
+    border-radius: 0px;
+    margin-top:20px;
+    font-size: 18px;
+}
+.badge:hover{
+  background-color: white;
+  color:rgba(117, 40, 40);
+  border: 1px solid rgba(117, 40, 40);
+  border-radius: 5px;
+  margin-top:20px;
+}
+
+/* HERO SECTION ENDS */
+
+
+
+
+/* LOGO SLIDER DESIGN */
+
+.logo-slider{
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 75px; */
+}
+
+.swiper-button-next .card{
+    height: 100%;
+    border-radius: 50%;
+    width: 00px;
+}
+
+/* LOGO SLIDER DESIGN ENDS */
+
+
+/* TRENDING STATISTICS SECTION */
+
+.trend-title{
+   color: #D00A0ACC;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 24px;
+   font-family: 'Monda', sans-serif; 
+}
+.main_btn{
+  width: 300px;
+  height: 56px;
+  color: white;
+}
+#submitButton{
+  margin-top: 2px;
+}
+.regBtn{
+  padding-bottom: 5px;
+}
+
+.trend-desc{
+  margin: 20px 0;
+    font-size: 32px;
+    font-style: normal;
+    line-height: 48px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.swiper-container{
+    /* background: #eee; */
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+ .swiper {
+    /* width: 100%; */
+    /* height: 300px; */
+    /* margin: 20px auto; */
+  } 
+
+  .swiper-slide {
+    /* text-align: center; */
+    /* font-size: 18px; */
+    background: #fff;
+    width: 432px ;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiperSlides{
+    display: flex;
+    flex-direction: column;
+    width: 490px ;
+    padding: 10px 30px;
+  }
+
+  .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .append-buttons a {
+    display: inline-block;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+  }
+
+  .reports-btn{
+    background: #D12806;
+    color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border: none;
+    height: 56px;
+    width: 400px;
+  }
+
+  .badge-danger{
+    background: #F0CCCC;;
+    width: 133px;
+    /* height: 28px; */
+    color:  #1C0303;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    font-style: normal;
+  }
+
+  .badge-title{
+    color: #7D3B3B;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 17px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+  /* ACCOUNTS DESIGN SECTION */
+
+  .account-card{
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+
+  .card-body .lead{
+    color: #7D3B3B;
+    line-height: 30px;
+    font-style: normal;
+    font-family: 'Montserrat' sans-serif;
+  }
+
+  .account-sub{
+    color: #0d0505;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 18px;
+    font-family: 'Montserrat' sans-serif;
+    margin-top: ;
+  }
+
+  .card-same{
+    color: #0d0505;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Montserrat' sans-serif;
+    line-height: 21px;
+  }
+
+  .card-cta{
+    height: 72px;
+    width: 100%;
+    background: #FFE3E3;
+  }
+
+  .card-cta p{
+    color: #000;
+    font-size: 1rem;
+    line-height: 22px;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 25px;
+    text-align: ;
+  }
+
+  .account-btn{
+    background: #D12806;
+    width: 400px;
+    height: 56px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border: none;
+    color: white;
+    margin-top: 64px;
+  }
+
+  /* ACCOUNTS SECTION DESIGN ENDS */
+
+
+
+
+  /* SURVEY SECTION DESIGN */
+
+  .survey-text{
+    color: #443E3E;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    font-family: 'Montserrat' sans-serif;
+  }
+
+  .survey-numbers{
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    color: #7D3B3B;
+    text-align: center;
+  }
+
+  .survey-list{
+    color: #0d0505;
+    font-family: 'Montserrat' sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    font-style: normal;
+  }
+
+  /* SURVEY DESIGN SECTION ENDS */
+
+
+  /* SERVICES SECTION DESIGN */
+
+  .service-title{
+    text-align: center;
+    color: #0D0505F2;
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .service-desc{
+    text-align: center;
+    color: #0d0303b9;
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+  }
+.testimonies{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat' sans-serif;
+  
+}
+.testimonies i{
+  width: 80%;
+  font-size: 20px;
+  
+}
+.testimonies p{
+  margin: 50px ;
+  font-weight: bolder;
+}
+  /* SERVICES DESIGN SECTION ENDS */
+
+
+  /* FOOTER DESIGN  */
+
+  .footer-title{
+    color: #1C0303;
+    font-family: 'Monda' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .footer-link a{
+    color: #1C0303;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 21px;
+  }
+
+  .social_profile {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .social_profile ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+  }
+  .social_profile ul li {
+    float: right;
+    margin-top: 50px;
+  }
+  .social_profile ul li a {
+    text-align: center;
+    border: 0px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 30px;
+  }
+  .header{
+    animation: firstMover 5s ;
+  }
+  .serviceTexts:hover{
+    animation: firstMoves 5s ;
+  }
+  .move1:hover{
+    animation: Move2 5s;
+  }
+  
+  @keyframes firstMoves {
+    0%{
+      transform: translateX(100px);
+      
+    }
+    50%{
+      transform: translate(0);
+    }
+    
+  }
+  @keyframes firstMover {
+    0%{
+      transform: translateY(-100px);
+      
+    }
+    
+    50%{
+      transform: translate(0);
+    }}
+    @keyframes Move2 {
+      0%{
+        transform: translateX(-100px);
+        
+      }
+      
+      50%{
+        transform: translate(0);
+      }}
+  @media only screen and (max-width: 768px) {
+    .social_profile ul li a {
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+    .swiper{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .social_profile ul li a {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+    }
+  }
+  .social_profile ul li a:hover {
+    color: #fff;
+  }
+  .f_facebook {
+    background: #3b5998;
+  }
+  .f_twitter {
+    background: #1a90d9;
+  }
+  .f_instagram {
+    background: #ff5252;
+  }
+  .f_linkedin {
+    background: #0e76a8;
+  }
+  /*END SOCIAL PROFILE CSS*/
+
+  .map iframe {
+		width: 100%;
+		height: 400px;
+		background: #f5f8fa;
+		padding: 10px;
+		border-radius: 5px;
+	}
+  
+
+  #contact_holder{
+    margin-top: 180px;
+  }
+
+  .contact_top{
+    background: #FFE1E1;
+    width: 100%;
+  }
+
+  .contact-card{
+    width: 400px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+  }
+
+  .profile-sub{
+    color: #7D3B3B;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    font-style: normal;
+  }
+ 
+  .profile_name{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #7D3B3B;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    font-style: normal;
+    font-family: 'Montserrat' sans-serif;
+  }
+
+  .footer_copyright {
+    /* border-top: 1px solid rgba(255, 255, 255, 0.08); */
+    background: #8E1717D9;
+    padding-top: 15px;
+    margin-bottom: 0px !important;
+    height: 75px;
+  }
+  .footer_copyright p {
+    color: #F0CCCCF2;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+
+  @media (max-width:600px){
+    #line4{
+      width: 100%;
+    }
+
+    .form-control{
+      width: 400px !important;
+    }
+  }
+  
+
+  @media (max-width:375px){
+    .reports-btn{
+      width: 300px;
+    }
+
+    .account-btn{
+      width: 200px;
+    }
+  }
+
+  @media (max-width:768px){
+  .hero-desc{  
+      line-height: 39px;       
+  }
+    .hero-title{
+      font-size: 35px;
+      line-height: 50px;
+      font-weight: 400;
+      margin-top: 80px;
+      width: 100%;
+      text-align: start;
+  }
+
+    #contact_holder{
+      margin-top: 10px;
+    }
+
+    .contact-card{
+      width: 100%;
+    }
+    .carouselHome{
+      display: flex;
+      flex-direction: column;
+    }
+    .carouselHome img{
+      width: 80%;
+    }
+    #arrowvector{
+      width: 30%;
+    }
+    .swiperSlides p{
+      font-size: 12px;
+      width:  100%;
+      
+    }
+    .ServiceLikesCon{
+      display: flex;
+      flex-direction: column;
+      
+    }
+    .carousel1{
+      display: block;
+    text-align: center;
+    }
+    .carousel-control-prev{
+      display: block !important;
+      color: red !important;
+      font-size: 30px;
+    }
+    .carousel-control-next{
+      display: block !important;
+      color: red !important;
+      font-size: 30px;
+    }
+    
+    .swiperSlides img{
+      
+      
+    }
+    .reportHeader{
+      margin-left:0px ;
+      padding: 20px;
+    }
+    .reportHeader h5{
+margin-left: 30px;
+    }
+    .image{
+      width: 20%;
+    }
+   
+    .account-btn{
+      width: 200px;
+    }
+    .FooterSocials{
+      display: flex;
+      flex-direction: column !important;
+      padding: 20px;
+    }
+   
+    .footer_copyright {
+      height: 50px;
+    }
+  }
+
+  @media (max-width:425px){
+    .form-control{
+      width: 300px !important;
+    }
+  }
+
+  

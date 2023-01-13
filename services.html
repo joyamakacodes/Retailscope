@@ -1,0 +1,444 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="/Images/logo.svg">
+    <title>Retail Scope Africa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styling.css">
+    <script src="https://use.fontawesome.com/9397c6d3c2.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <style>
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+  
+        .b-example-divider {
+          height: 3rem;
+          background-color: rgba(0, 0, 0, .1);
+          border: solid rgba(0, 0, 0, .15);
+          border-width: 1px 0;
+          box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+  
+        .b-example-vr {
+          flex-shrink: 0;
+          width: 1.5rem;
+          height: 100vh;
+        }
+  
+        .bi {
+          vertical-align: -.125em;
+          fill: currentColor;
+        }
+  
+        .nav-scroller {
+          position: relative;
+          z-index: 2;
+          height: 2.75rem;
+          overflow-y: hidden;
+        }
+  
+        .nav-scroller .nav {
+          display: flex;
+          flex-wrap: nowrap;
+          padding-bottom: 1rem;
+          margin-top: -1px;
+          overflow-x: auto;
+          text-align: center;
+          white-space: nowrap;
+          -webkit-overflow-scrolling: touch;
+        }
+      </style>  
+       <link href="navbar-top-fixed.css" rel="stylesheet">
+</head>
+  <body class="bg-white">
+    <nav class="navbar navbar-expand-lg bg-light sticky-top winenav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="Images/logo.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 mt-3 ">
+            <li class="nav-item ms-3">
+              <a class="nav-link text-white" aria-current="page" href="/insights.html">Insights</a>
+            </li>
+            
+            
+            <li class="nav-item ms-3">
+              <a class="nav-link text-white" href="infographics.html">Infographics</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link text-white" aria-current="page" href="./newsarchive.html">News Archive</a>
+            </li>
+            <li class="nav-item ms-3">
+              <a class="nav-link text-white bg-danger" aria-current="page" href="#">Services</a>
+            </li>
+            
+            <li class="nav-item ms-3 nav-bg ">
+              <a class="nav-link text-white" aria-current="page" href="./prices.html">
+                Subscription Plans
+              </a>
+            </li>
+           
+          </ul>
+          <button class="btn border btn-outline text-white submit" type="submit"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Log In</button>
+        </div>
+      </div>
+    </nav>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content" style="background: transparent; border: none;">
+          <div class="modal-header" style="background: transparent; border: none;">
+          </div>
+          <div class="modal-body">
+            <div class="row">
+               <div class="col-lg-6" style="background-color: #fff; height:463px; padding: 10px;">
+                 <div class="text-center pt-5">
+                  <img src="assets/images/logos/Retail-Scope-removebg-preview 1.png" alt="" width="120px" class="text-center">
+                  <p class="lead trend-desc ">Log in to your account</p>
+                 </div>
+  
+                  <form action="" style="padding-top: 15px; padding-left: 20px; padding-right: 20px; padding-bottom: 15px;">
+                    <div class="row">
+                      <div class="form-group col-md-12 mb-3">
+                        <input type="text" name="email" class="form-control" placeholder="Email Address" required="required">
+                      </div>
+                      <div class="form-group col-md-12 mb-3">
+                        <input type="password" name="password" class="form-control" placeholder="Password" required="required">
+                      </div>
+                    </div>
+                  </form>
+                  
+                  <div style="margin-left: 30px;">
+                    <input type="checkbox" name="rememberMe" id="">Remember me
+                    <a href="" style="padding-left: 70px; color: #000;">Forgot Password?</a>
+                  </div>
+  
+                  <div class="col-md-12 text-center mt-3 pt-5">
+                    <button type="submit" value="Send message" name="submit" id="submitButton" class="btn main_btn btn btn-danger" style="width: 300px;">Log In</button>
+                </div>
+              </div>
+      
+              <div class="col-lg-6" style="background: #FFE3E3; height: 100%; padding: 10px; margin: 0; ">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; left: 90%; top: 20px; color: red;"></button>
+               <div class="text-center pt-5">
+                <img src="assets/images/logos/Retail-Scope-removebg-preview 1.png" alt="" width="120px" class="text-center">
+                <p class="lead trend-desc">Create an account</p>
+                <p class="text-center" style="color: #0D050580; font-weight: 400; font-size: 14px; line-height: 17px;">Creating an account will grant you direct access to the following services</p>
+               </div>
+  
+               <div class="text-center" style="color: #8E1717; font-size: 16px; line-height: 30px; font-weight: 500; font-family: 'Montserrat' sans-serif;">
+                <p>Full access to all statistics</p>
+                <p>1,000,000 market and customer data sets</p>
+                <p>Download as XLS, PDF & PNG </p>
+               </div>
+                 
+               <div class="col-md-12 text-center mt-5 pb-4 pt-2">
+                <button type="submit" value="Send message" name="submit" id="submitButton" class="btn main_btn  btn-danger  " style="width: 300px;"  data-bs-toggle="modal" data-bs-target="#exampleModalToggle2">Register</button>
+               </div>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="container">
+              <div class="text-center">
+                <div class="row">
+                  <div class="col-11">  <img src="assets/images/logos/Retail-Scope-removebg-preview 1.png" alt="" width="150px"></div>
+                  <div class="col-1"><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                </div>
+                
+                  <p style="font-style: normal; font-size: 16px; font-weight: 400; line-height: 20px; font-family: 'Montserrat' sans-serif; color: #0D050580;">Let’s create your access to unlimited services</p>
+                </div>
+    
+                  <div>
+                      <form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
+                          <div class="row">
+                              <div class="form-group col-md-6">
+                                  <input type="text" name=" First name" class="form-control form-control-lg" placeholder="Name" required="required">
+                              </div>
+                              <div class="form-group col-md-6">
+                                  <input type="text" name="Last name" class="form-control form-control-lg" placeholder="Name" required="required">
+                              </div>
+                              <div class="form-group col-md-4 mt-3">
+                                  <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                      <option selected>Gender</option>
+                                      <option value="1">Male</option>
+                                      <option value="2">Female</option>
+                                  </select>
+                              </div>
+                              <div class="form-group col-md-4 mt-3">
+                                  <input type="number" name="phone" class="form-control form-control-lg" placeholder="Phone Number" required="required">
+                              </div>
+                              <div class="form-group col-md-4 mt-3">
+                                  <input type="email" name="email" class="form-control form-control-lg" placeholder="Email" required="required">
+                              </div>
+                              <div class="form-group col-md-4 mt-3">
+                                  <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                      <option selected>Industry</option>
+                                      <option value="1">Fintech</option>
+                                      <option value="2">FMCGs</option>
+                                      <option value="3">Tech</option>
+                                  </select>
+                              </div>
+                              <div class="form-group col-md-4 mt-3">
+                                  <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                      <option selected>Job Title</option>
+                                      <option value="1">Web Designer</option>
+                                      <option value="2">Marketing Coordinator</option>
+                                      <option value="3">Project Manager</option>
+                                      <option value="4">President of Sales</option>
+                                  </select>
+                              </div>
+                              <div class="form-group col-md-4 mt-3">
+                                  <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                      <option selected>Company</option>
+                                      <option value="1">Hazon Tech</option>
+                                      <option value="2">AFO&T</option>
+                                      <option value="3">Remitta</option>
+                                      <option value="4">Wellness Pharm.</option>
+                                      <option value="5">EIC</option>
+                                  </select>
+                              </div>
+                              <div class="form-group col-md-6">
+                                  <input type="password" name="password" class="form-control form-control-lg" placeholder="Password" required="required">
+                              </div>
+                              <div class="form-group col-md-6">
+                                  <input type="password" name="password" class="form-control form-control-lg" placeholder="Confirm Password" required="required">
+                              </div>
+                              <div><input type="checkbox" name="rememberMe" id="" class="mt-3">  I accept the terms and conditions</div>
+                              <div class="col-md-12 text-center mt-3">
+                                  <button type="submit" value="Send message" name="submit" id="submitButton" class="btn main_btn btn-danger" title="Submit Your Message!">Register</button>
+                              </div>
+                          </div>
+                      </form>
+                  </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="container">
+      <div class="container-fluid viewinReport">
+        <header class="header p-5 ">
+          <h6 class="text-center pt-3">OUR SERVICES
+          </h6>
+          <p class="text-center fs-2">Save time & money with Retailscope</p>
+          <div class="row row-cols-1 row-cols-md-3 mt-5 text-center">
+              <div class="col digitalBtn">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class=" p-3 mt-5">
+                    <img src="/Images/serviceVector.svg" alt="">
+                    <h4 class="card-title pricing-card-title mt-2">Retail AI solutions</h4>
+                    <p class="text-muted fw-light pb-3">
+                      We leverage on our data repository to build retail AI solutions that solves complex retail problems for FMCGs and other multinationals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col digitalBtn">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class=" p-3 mt-3">
+                    <img src="/Images/serviceVector.svg" alt="">
+                    <h4 class="card-title pricing-card-title mt-1">Retail insight consulting</h4>
+                    <p class="text-muted fw-light">
+                      Retail Scope data analytics experts develop real-time data/actionable insights on brands, product categories and retail metrics for brand professionals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col digitalBtn">
+                  <div class="card mb-3 rounded-3 shadow-sm">
+                    <div class=" p-3 mt-4">
+                      <img src="/Images/serviceVector.svg" alt="">
+                      <h4 class="card-title pricing-card-title">Market and consumer research</h4>
+                      <p class="text-muted fw-light">
+                        Understanding changes in consumer behaviour and focus plays a significant role in implementing consumer experience.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+      </header>
+<div class="m-auto text-center">
+  <button class="btn btn-danger px-5 w-50 mb-5"
+  data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Get in touch
+  </button>
+</div>
+      </div>
+</div>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content" style="background: transparent; border: none;">
+      <div class="modal-header" style="background: transparent; border: none;">
+        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">GET IN TOUCH WITH US</h1> -->
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-6" style="background-color: #fff; height:468px;">
+              <img src="assets/images/statistics/Group 244.png" alt="" width="100%">
+          </div>
+  
+          <div class="col-lg-6" style="background: #FFE3E3; height: 100%; padding: 10px; margin: 0;">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; left: 760px; top: 20px; "></button>
+
+              <form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();" style="padding-top: 55px; padding-left: 30px; padding-right: 30px; padding-bottom: 55px;">
+                  <div class="row">
+                      <div class="form-group col-md-12">
+                          <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                      </div>
+                      <div class="form-group col-md-12 mt-3">
+                          <input type="email" name="email" class="form-control" placeholder="Email" required="required">
+                      </div>
+                      <div class="form-group col-md-12 mt-3">
+                          <textarea rows="6" name="message" class="form-control" placeholder="Your Message" required="required"></textarea>
+                      </div>
+                      <div class="col-md-12 text-center mt-3">
+                          <button type="submit" value="Send message" name="submit" id="submitButton" class="btn main_btn" title="Submit Your Message!">Send Message</button>
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section>
+  <div class="container">
+    <div class="text-center mt-5 pt-3">
+      <h3 class="trend-title"
+         style="color: #8A3C3A;
+         font-size: 16px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 24px;
+         font-family: 'Monda', sans-serif; ">CONTACT</h3>
+        <p class="headingBorder"></p>
+       <p class="lead trend-desc m-5">Get in touch with us. We are happy help.</p>
+   </div>
+
+   <div class="row">
+    <div class="col-lg-6 col-sm-12 col-xs-12">
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.6256664739217!2d3.4136208!3d6.4420904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b29716da015%3A0xf1feca12afeddbca!2s50%20Awolowo%20Rd%2C%20Ikoyi%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1661794875240!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-sm-12 col-xs-12" id="contact_holder">
+      <div class="card contact-card">
+        <div class="contact_top">
+            <div style="display: flex;">
+                <img src="assets/images/statistics/Ellipse 1.png" alt="">
+                <div class="mt-2">
+                    <h6 class="profile_name">Ayotunde Hassan</h6>
+                    <p>Customer Support Speacialist</p>
+                </div>
+            </div>
+        </div>
+        <div style="width: 100%;">
+            <div style="display: flex; gap: 100px;">
+                <h6 class="profile-sub">Telephone</h6>
+                <p>+2348131896792</p>
+            </div>
+
+            <div style="display: flex; gap: 30px;">
+                <h6 class="profile-sub">Email Address</h6>
+                <p>Info@Retailscope.Africa</p>
+            </div>
+
+            <div style="display: flex; gap: 30px;">
+                <h6 class="profile-sub">Availabilty</h6>
+                <p>Mon-Fri, 8:00am - 10:00pm</p>
+            </div>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <div class="text-center mt-5 pt-3">
+    
+   </div>
+  </div>
+</section>
+<div class="container">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+    <div class="col mb-3">
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="prices.html" class="nav-link p-0 text-muted fw-bold">ACCOUNTS</a></li>
+        <li class="nav-item mb-2"><a href="prices.html" class="nav-link p-0 text-muted">Basic Account</a></li>
+        <li class="nav-item mb-2"><a href="prices.html" class="nav-link p-0 text-muted">Starter Account</a></li>
+        <li class="nav-item mb-2"><a href="prices.html" class="nav-link p-0 text-muted">Project Account</a></li>
+       
+      </ul>
+    </div>
+    <div class="col mb-3">
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted fw-bold">COMPANY</a></li>
+        <li class="nav-item mb-2"><a href="aboutUs.html" class="nav-link p-0 text-muted">About Us</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+        <li class="nav-item mb-2"><a href="FAQ..html" class="nav-link p-0 text-muted">Help & FAQ</a></li>
+        
+        
+      </ul>
+    </div>
+    <div class="col mb-3">
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted fw-bold">SERVICES</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Retail AI Solutions</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Retail Insight Consulting</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Market/Consumer Research</a></li>
+      </ul>
+    </div>
+    <div class="col mb-3">
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted fw-bold">PRODUCTS</a></li>
+        <li class="nav-item mb-2"><a href="infographics.html" class="nav-link p-0 text-muted">Infographics</a></li>
+        <li class="nav-item mb-2"><a href="newsarchive.html" class="nav-link p-0 text-muted">News Archive</a></li>
+        <li class="nav-item mb-2"><a href="insights.html" class="nav-link p-0 text-muted">Deep Insights</a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+<div style="display: flex; background: #F0CCCC; justify-content: space-between;" class="FooterSocials">
+  <div class="social-desc">
+    <p><b>Follow Us</b> on social media for more business insights.</p>
+  </div>
+
+  <div class="social_profile  mb-5">
+    <ul>
+      <li><a href="#" class="f_twitter digitalBtn"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+      <li><a href="#" class="f_instagram digitalBtn"><i class="fa fa-instagram" title="Instagram"></i></a></li>
+      <li><a href="#" class="f_linkedin digitalBtn"><i class="fa fa-linkedin" title="LinkedIn"></i></a></li>
+      <li><a href="#" class="f_facebook digitalBtn"><i class="fa fa-facebook" title="Facebook"></i></a></li>
+  </ul>
+</div>
+</div>
+<div class="footer_copyright">
+<p class="text-center p-2">Copyright &copy; Copyright 2022 - All Rights Reserved </p>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
