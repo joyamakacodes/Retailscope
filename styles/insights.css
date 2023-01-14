@@ -116,7 +116,9 @@ font-size: 12px;
   width: 60%;
 }
 /* HERO SECTION */
-
+.recentins{
+  padding: 50px;
+}
 .hero{
   margin-top: 40px;
 }
@@ -179,6 +181,9 @@ margin-top:20px;
   font-weight: 500;
   font-family: 'Montserrat' sans-serif;
   border-radius: 0;
+}
+.largeBadges{
+  width: 300px;
 }
 .headingBorder{
   width: 10%;
@@ -337,6 +342,13 @@ margin-top:20px;
           display: none;
         }
         @media only screen and (max-width: 768px) {
+          .largeBadges{
+            width: 200px;
+            font-size: 10px;
+          }
+          .recentins{
+            padding: 0px;
+          }
           .swiper{
             display: none;
           }
@@ -373,7 +385,7 @@ margin-top:20px;
             vertical-align: 0%;
           }
           .input-group{
-            width: 320px;
+            width: 250px;
             margin: 0px 30px;
           }
           .FooterSocials{
@@ -396,6 +408,13 @@ margin-top:20px;
           width: 100px !important;
         }
         
+        #contact_holder{
+          margin-top: 10px !important;
+        }
+    
+        .contact-card{
+          width: 100%;
+        }
         }
         @media only screen and (max-width: 480px) {
           .social_profile ul li a {
@@ -425,7 +444,7 @@ margin-top:20px;
           background: #8E1717D9;
           padding-top: 15px;
           margin-bottom: 0px !important;
-          height: 75px;
+          height: 95px;
         }
         .footer_copyright p {
           color: #F0CCCCF2;
@@ -446,6 +465,7 @@ margin-top:20px;
 
 #contact_holder{
   margin-top: 180px;
+  
 }
 
 .contact_top{
@@ -454,7 +474,7 @@ margin-top:20px;
 }
 
 .contact-card{
-  width: 400px;
+  width: 300px !important;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.16);
   border-radius: 4px;
 }
